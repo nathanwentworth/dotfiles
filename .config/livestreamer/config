@@ -1,0 +1,4 @@
+player=/Applications/mpv.app/Contents/MacOS/mpv --cache 2048
+
+twitch-oauth-token=kr6zas0c9hhjlsssmcl7o3e1pn98kx
+default-stream=best

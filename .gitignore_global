@@ -1,0 +1,10 @@
+
+# for sftp, so i'm not posting my password
+sftp-config.json
+
+# no need to sync sublime stuff
+*.sublime-workspace
+*.sublime-project
+
+# just in case
+*.DS_Store

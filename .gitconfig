@@ -1,0 +1,18 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Nathan Wentworth
+	email = nwentworth95@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+[alias]
+	branches = branch -a
+	unstage = reset -q HEAD --
+	discard = checkout --
+	uncommit = reset --mixed HEAD~
+	amend = commit --amend --no-edit
+	unmerged = diff --name-only --diff-filter=U
+	summary = status -u -s
