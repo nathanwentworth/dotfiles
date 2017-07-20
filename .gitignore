@@ -1,0 +1,13 @@
+# excludes all files and directories by default
+
+/*
+/*/
+
+# here's the things it *does* include
+
+!.config/
+!.gitconfig
+!.bash_profile
+!.gitignore_global
+!.gitignore
+!.hyper.js
